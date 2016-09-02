@@ -11,5 +11,10 @@
             "email": "contact@glacialsgames.net"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+      "psr-4": {
+        "GlacialSmvc\\Kernel\\": "Illuminate/Src/"
+      }
+    }
 }
